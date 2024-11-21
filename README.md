@@ -1,7 +1,12 @@
 # Maths
 
+
+
+## Build and Install
+
 Build the glm library before the math library
 
+```shell
 cd /path/to/glm
 cmake \
     -DGLM_BUILD_TESTS=OFF \
@@ -9,3 +14,4 @@ cmake \
     -B build .
 cmake --build build -- all
 cmake --build build -- install
+```
