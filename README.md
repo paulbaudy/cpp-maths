@@ -1,5 +1,10 @@
 # Maths
 
+## Project Health
+
+| Service | Status |
+| ------- | ------ |
+| [GitHub actions](https://github.com/g-truc/glm/actions)| [![.github/workflows/ci.yml](https://github.com/g-truc/glm/actions/workflows/ci.yml/badge.svg)](https://github.com/g-truc/glm/actions/workflows/ci.yml)
 
 
 ## Build and Install
@@ -15,3 +20,6 @@ cmake \
 cmake --build build -- all
 cmake --build build -- install
 ```
+## Release notes
+
+Todo
