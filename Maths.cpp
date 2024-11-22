@@ -1,14 +1,15 @@
-﻿// Maths.cpp : définit le point d'entrée de l'application.
-//
-
-#include "Maths.h"
+﻿/*!
+ *  @file Maths.cpp
+ *  @author Paul
+ *  @date 2024-11-22
+ *
+ *  Main entry point
+ */
 
 #include "Core/NurbsCurve.h"
 
-using namespace std;
-
 int main()
 {
-	cout << "Hello CMake." << endl;
+	std::cout << "Hello CMake." << std::endl;
 	return 0;
 }

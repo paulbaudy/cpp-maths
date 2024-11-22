@@ -6,7 +6,7 @@ if (POLICY CMP0141)
 endif()
 
 project ("Maths")
-add_executable (Maths "Maths.cpp" "Maths.h" "Core/NurbsCurve.h"  "Core/StaticArray.h" "Core/CallTraits.h")
+add_executable (Maths "Maths.cpp"  "Core/NurbsCurve.h"  "Core/StaticArray.h" "Core/CallTraits.h")
 
 add_subdirectory(ThirdParties)
 
