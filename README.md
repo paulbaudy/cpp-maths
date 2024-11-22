@@ -2,9 +2,6 @@
 
 ## Project Health
 
-| Service | Status |
-| ------- | ------ |
-| [GitHub actions](https://github.com/g-truc/glm/actions)| [![.github/workflows/ci.yml](https://github.com/g-truc/glm/actions/workflows/ci.yml/badge.svg)](https://github.com/g-truc/glm/actions/workflows/ci.yml)
 
 [![CMake on multiple platforms](https://github.com/paulbaudy/cpp-maths/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/paulbaudy/cpp-maths/actions/workflows/cmake-multi-platform.yml)
 
