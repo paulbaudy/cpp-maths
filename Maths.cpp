@@ -3,6 +3,8 @@
 
 #include "Maths.h"
 
+#include "Core/NurbsCurve.h"
+
 using namespace std;
 
 int main()
