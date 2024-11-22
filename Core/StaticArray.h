@@ -9,7 +9,7 @@
 
 #include "CallTraits.h"
 
-#include <iostream>
+#include <stdint.h>
 
 using uint32 = std::uint32_t;
 using int32 = std::int32_t;
