@@ -1,5 +1,7 @@
 # Maths
 
+C++20 Math library for game engines, extending the standard library and providing functions for animation and rendering
+
 ## Project Health
 
 
