@@ -15,4 +15,3 @@ if (CMAKE_VERSION VERSION_GREATER 3.12)
 endif()
 
 include_directories("ThirdParties/glm")
-target_link_libraries(glm)
