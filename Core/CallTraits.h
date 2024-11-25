@@ -6,6 +6,8 @@
  *  Call traits helpers
  */
 
+#include <type_traits>
+
 namespace Maths
 {
 	template <typename T, bool TypeIsSmall>
@@ -34,7 +36,7 @@ namespace Maths
 	struct TCallTraitsBase
 	{
 	private:
-		enum { PassByValue = TOr<TAndValue<(sizeof(T) <= sizeof(void*)), TIsPODType<T>>, TIsArithmetic<T>>::Value };
+		enum { PassByValue = std::disjunction_v<std::conjunction_v<(sizeof(T) <= sizeof(void*)), std::is_pod_v<T>>, std::is_arithmetic_v<T>> };
 
 	public:
 		typedef T ValueType;
