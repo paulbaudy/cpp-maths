@@ -209,17 +209,17 @@ namespace Maths
 		inline RangedForConstReverseIteratorType	rend() const { return RangedForConstReverseIteratorType(Storage.Elements); }
 	};
 
-	/** Creates a static array filled with the specified value. */
-	template <typename InElementType, uint32 NumElements>
-	TStaticArray<InElementType, NumElements> MakeUniformStaticArray(typename TCallTraits<InElementType>::ParamType InValue)
-	{
-		TStaticArray<InElementType, NumElements> Result;
-		for (uint32 ElementIndex = 0; ElementIndex < NumElements; ++ElementIndex)
-		{
-			Result[ElementIndex] = InValue;
-		}
-		return Result;
-	}
+	///** Creates a static array filled with the specified value. */
+	//template <typename InElementType, uint32 NumElements>
+	//TStaticArray<InElementType, NumElements> MakeUniformStaticArray(typename TCallTraits<InElementType>::ParamType InValue)
+	//{
+	//	TStaticArray<InElementType, NumElements> Result;
+	//	for (uint32 ElementIndex = 0; ElementIndex < NumElements; ++ElementIndex)
+	//	{
+	//		Result[ElementIndex] = InValue;
+	//	}
+	//	return Result;
+	//}
 
 	template <typename T> struct TIsContiguousContainer;
 

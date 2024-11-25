@@ -7,6 +7,7 @@
  */
 
 #include <type_traits>
+#include "AndOr.h"
 
 namespace Maths
 {
@@ -36,7 +37,7 @@ namespace Maths
 	struct TCallTraitsBase
 	{
 	private:
-		enum { PassByValue = std::disjunction_v<std::conjunction_v<(sizeof(T) <= sizeof(void*)), std::is_pod_v<T>>, std::is_arithmetic_v<T>> };
+		enum { PassByValue = true/**= Maths::TOr<Maths::TAnd<(sizeof(T) <= sizeof(void*)), std::is_pod_v<T>>, std::is_arithmetic_v<T>> */ };
 
 	public:
 		typedef T ValueType;
