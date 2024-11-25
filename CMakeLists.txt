@@ -6,7 +6,9 @@ if (POLICY CMP0141)
 endif()
 
 project ("Maths")
-add_executable (Maths "Maths.cpp"  "Core/NurbsCurve.h"  "Core/StaticArray.h" "Core/CallTraits.h" "Core/Pole.h" "Core/AndOr.h")
+file(GLOB_RECURSE CORE_FILES "Core/**.h")
+add_executable (Maths "Maths.cpp" 
+	${CORE_FILES})
 
 add_subdirectory(ThirdParties)
 
