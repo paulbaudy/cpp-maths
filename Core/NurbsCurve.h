@@ -96,7 +96,7 @@ namespace Maths
 		float N[degrees + 1];
 		PImplNurbsCurve::BasisFunction<degrees>(Span, Knots, Alpha, N);
 
-		glm::vec3 P = glm::vec3::ZeroVector;
+		glm::vec3 P = glm::vec3(0.f, 0.f, 0.f);
 		for (int32 i = 0; i <= degrees; ++i)
 		{
 			P += N[i] * Points[Span - degrees + i];
@@ -210,7 +210,7 @@ namespace Maths
 
 			const TNurbsBasis<degree> Basis = Maths::EvaluateNurbsBasis<degree>(InKnots, Alpha);
 
-			glm::vec3 Location = glm::vec3::ZeroVector;
+			glm::vec3 Location = glm::vec3(0.f, 0.f, 0.f);
 			for (int32 j = 0; j < Basis.size(); ++j)
 				Location += Basis.Weight(j) * InControlPoints[Basis.Index(j)].GetLocation();
 
