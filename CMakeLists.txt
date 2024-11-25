@@ -6,7 +6,7 @@ if (POLICY CMP0141)
 endif()
 
 project ("Maths")
-file(GLOB_RECURSE CORE_FILES "Core/**.h")
+file(GLOB_RECURSE CORE_FILES "include/**.h")
 add_executable (Maths "Maths.cpp" 
 	${CORE_FILES})
 
