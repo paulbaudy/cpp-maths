@@ -6,7 +6,8 @@
  *  Main entry point
  */
 
-#include "Core/NurbsCurve.h"
+#include "include/NurbsCurve.h"
+#include "include/SolveQuadratic.h"
 
 int main()
 {
