@@ -1,6 +1,7 @@
 # Maths
 
-C++20 Math library for game engines, extending the standard library and providing functions for animation and rendering
+C++20 Math header-only library for game engines, extending the standard library and providing functions for animation and rendering
+Supports Clang & CL
 
 ## Project Health
 
