@@ -1,11 +1,7 @@
 name: clang-tidy-review
 
 # You can be more specific, but it currently only works on pull requests
-on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+on: [pull_request]
 
 jobs:
   build:
