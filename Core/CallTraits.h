@@ -64,7 +64,7 @@ namespace Maths
 	};
 
 	// Array types
-	template <typename T, size_t N>
+	template <typename T, std::size_t N>
 	struct TCallTraits<T[N]>
 	{
 	private:
@@ -78,7 +78,7 @@ namespace Maths
 	};
 
 	// const array types
-	template <typename T, size_t N>
+	template <typename T, std::size_t N>
 	struct TCallTraits<const T[N]>
 	{
 	private:
