@@ -7,7 +7,6 @@
  */
 
 #include <type_traits>
-#include "AndOr.h"
 
 namespace Maths
 {
