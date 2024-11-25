@@ -1,2 +1,0 @@
-- name: clang-tidy review  
-  uses: ZedThree/clang-tidy-review@v0.20.1
