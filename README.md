@@ -15,7 +15,7 @@ Supports Clang 14 & CL
 ```shell
 git clone https://github.com/paulbaudy/cpp-maths.git --recursive
 ```
-Do include the --recursive option if you need the glm submodule
+Do include the `--recursive` option if you need the glm submodule
 
 * Build using CMake
 
