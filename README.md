@@ -23,7 +23,7 @@ cmake --build build -- install
 ```
 ## Release notes
 
-### glm 0.0.1 - Work in progress
+### cpp-maths 0.0.1 - Work in progress
 
 ### Features : 
 - First release of the library
